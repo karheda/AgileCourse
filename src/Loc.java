@@ -8,6 +8,7 @@
 public class Loc {
     public static int countLines(String content) {
         String[] breakLinesList = content.split("\n");
+
         int countLines = breakLinesList.length;
 
         return countLines;
